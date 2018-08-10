@@ -32,6 +32,7 @@ function viewCart()
   {
     if(i === 0)
       output += ` ${cart[i].itemName} at $${cart[i].itemPrice}`
+<<<<<<< HEAD
       
     else if(i == cart.length -1)
     output += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
@@ -39,6 +40,12 @@ function viewCart()
     else
       output += `, ${cart[i].itemName} at $${cart[i].itemPrice}`
   }
+=======
+    else
+      output += `, ${cart[i].itemName} at $${cart[i].itemPrice}`
+  }
+  
+>>>>>>> 3231a0e9ba91134d155b2655ff9f149a4ce26d00
   output += '.';
   return output;
   
